@@ -1,2 +1,3 @@
-# pet-box
-Box, A collection of some off-work activities on code
+# PET-BOX
+
+Box, A collection of some **off-work activities on code!**
