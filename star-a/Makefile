@@ -1,11 +1,11 @@
 #Makefile for the star-a project
-
+CC = clang
 FLAG = -x c++ -std=c++17
-PROG = result.out
+PROG = result
 
-OBJ = FileBase
+OBJ = FileBase.c
 
 
 all: result
 
-result:
+result: FileBase.o

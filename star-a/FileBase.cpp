@@ -1,23 +1,15 @@
-#include <vector>
-#include <string>
-#include <fstream>
+/*include <vector>
+include "FileBase.h" */
+
 #include <iostream>
-#include "FileBase.h"
-
 class FileBase{
-	std::vector<node> bubble;
+//	std::vector<node> bubble;
 
-	void open_file (const std::string& file_name);
-	void close_file (const std::string& file_name);
+	//void open_file (const std::string& file_name);
+	//void close_file (const std::string& file_name);
 };
 
-void FileBase::open_file (const std::string& file_name){
-}
-
-void FileBase::close_file (const std::string& file_name){
-}
-
 int main(){
-	std::cout<<"A run without error!";
+	std::cout<<"A run without error!"<<std::endl;
 	return 0;
 }
