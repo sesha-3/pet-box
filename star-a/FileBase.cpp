@@ -1,5 +1,5 @@
-/*include <vector>
-include "FileBase.h" */
+#include <vector>
+#include "FileBase.h"
 
 #include <iostream>
 class FileBase{
@@ -13,3 +13,5 @@ int main(){
 	std::cout<<"A run without error!"<<std::endl;
 	return 0;
 }
+
+//g++ -std=c++17 -o result -I FileBase.h FileBase.cpp
