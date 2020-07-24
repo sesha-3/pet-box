@@ -3,10 +3,11 @@
 
 #include <iostream>
 class FileBase{
-//	std::vector<node> bubble;
+	std::vector<node> bubble;
 
 	//void open_file (const std::string& file_name);
 	//void close_file (const std::string& file_name);
+	void create_bubble(const std::string&
 };
 
 int main(){
