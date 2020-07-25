@@ -7,11 +7,19 @@ class FileBase{
 
 	//void open_file (const std::string& file_name);
 	//void close_file (const std::string& file_name);
-	void create_bubble(const std::string&
+	void create_bubble();
 };
 
+void FileBase::create_bubble(){
+	std::string name,id,key;
+	std::cout<<"Enter the name:\n";
+	std::cin>>name;
+}
+
 int main(){
-	std::cout<<"A run without error!"<<std::endl;
+//	std::cout<<"A run without error!"<<std::endl;
+	FileBase f = new FileBase();
+	f.create_bubble();
 	return 0;
 }
 
